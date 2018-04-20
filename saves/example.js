@@ -1,6 +1,3 @@
-/*
-  Will write more info here later
-*/
 module.exports = {
 
   // ID of app. name of app = title of game
