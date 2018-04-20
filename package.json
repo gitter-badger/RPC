@@ -1,0 +1,13 @@
+{
+  "name": "discord-multiple-rpc",
+  "version": "1.0.0",
+  "description": "Uses discord-rich-presence to give you a simple way to save different presence configurations and use them later.",
+  "main": "start.js",
+  "dependencies": {
+    "discord-rich-presence": "0.0.6",
+    "flags": "^0.1.3",
+    "path": "^0.12.7"
+  },
+  "author": "Purpzie",
+  "license": "MIT"
+}
