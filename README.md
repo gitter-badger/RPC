@@ -1,4 +1,4 @@
-# discord-multiple-RPC
+# RPC
 Uses [discord-rich-presence](https://github.com/devsnek/discord-rich-presence) to give you a simple way to save different presence configurations and use them later.
 
 ### Install
