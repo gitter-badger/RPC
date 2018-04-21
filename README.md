@@ -12,7 +12,7 @@ To set up a bot:
 
   - Go to the [developers page](https://discordapp.com/developers/applications/me) and create an application.
   - Scroll down to where it says in big bold letters "Rich Presence", and enable it.
-  - Upload your images. Their names will be what to specify in the config as "largeImageKey" and "smallImageKey".
+  - Upload your images. Their names will be what to specify in the config as "largeImageName" and "smallImageName".
   - Save it.
   - Scroll up and grab its client ID. This is what you put as the first option in your saves.
 </details>
