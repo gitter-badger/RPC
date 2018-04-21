@@ -8,9 +8,9 @@ const save = require(`./saves/${flag.get('use')}.js`);
 const rpc = DiscordRPC(save.app);
 
 /*
-Nobody will actually be able to join or
-spectate the presence, but these are here
-just in case users want the buttons to appear.
+  Nobody will actually be able to join or
+  spectate the presence, but these are here
+  just in case users want the buttons to appear.
 */
 rpc.on('join', secret => {
   console.log('we should join with', secret);
