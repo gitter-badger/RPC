@@ -5,8 +5,6 @@ Uses [discord-rich-presence](https://github.com/devsnek/discord-rich-presence) t
 1. Clone or download this repo.
 1. Run `npm i` in its directory.
 
-That's it. There's only two steps.
-
 #### Setting up custom images
 <details>
   <summary>Click to expand</summary>
