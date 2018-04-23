@@ -2,7 +2,13 @@
   "name": "discord-multiple-rpc",
   "version": "1.0.0",
   "description": "Uses discord-rich-presence to give you a simple way to save different presence configurations and use them later.",
-  "main": "rpc.js",
+  "author": "Purpzie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purpzie/RPC.git"
+  },
+  "homepage": "https://github.com/purpzie/RPC",
+  "bugs": "https://github.com/Purpzie/RPC/issues",
   "scripts": {
     "start": "node rpc.js"
   },
@@ -11,6 +17,8 @@
     "flags": "^0.1.3",
     "path": "^0.12.7"
   },
-  "author": "Purpzie",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "license": "MIT"
 }
