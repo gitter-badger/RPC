@@ -1,5 +1,5 @@
 module.exports = {
-  // ID for the app with images
+  // ID for the app with images. The name of this = the name of the game
   app: '385977971107954688',
 
   // Text to display
