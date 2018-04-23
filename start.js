@@ -1,14 +1,15 @@
 const DiscordRPC = require('discord-rich-presence');
 const flag = require('flags');
+const config = require ('./config.json');
 
 // Extra safety measures.
 process.on('unhandledRejection', console.error);
 
-// get flag crap
-flag.defineString('use', 'main');
+// get flag info
+flag.defineString('use', config.default);
 flag.parse();
 
-const savePath = `./saves/${flag.get('use')}.js`;
+const savePath = `${config.saveFolder}/${flag.get('use')}.js`;
 const { app } = require(savePath); // This ID cannot be changed in save editing.
 const rpc = DiscordRPC(app);
 
