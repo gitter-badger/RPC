@@ -20,10 +20,11 @@ That's it. There's only two steps.
 ## Usage Instructions
 
 - See [the example](./saves/example.js) to learn how to configure a presence.
-- To run a presence, use `node start.js --use savename`
-- Extra options can be found in config.json!
+- To run a presence, use `node rpc.js --use savename` inside the directory.
+  - If you want, you can specify your own scripts in `package.json` for shortcuts to your favorites.
+- Extra options can be found in `config.json`!
   - `default` - Default save to use when `--use` is not specified
-  - `saveFolder` - Relative path to save folder
+  - `saveFolder` - Path to save folder
 
 ### Future plans
 - Clickable file to start program
