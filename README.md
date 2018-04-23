@@ -23,3 +23,4 @@ To set up a bot:
   - You can run this with `node start.js --use example`
 - You can add and edit any saves you want! To run them, use `node start.js --use filename`
   - Naming any save "main" will run as default unless `--use` is specified
+  - Please be sure not to use spaces in save names!
