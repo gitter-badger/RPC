@@ -7,7 +7,7 @@ Uses [discord-rich-presence](https://github.com/devsnek/discord-rich-presence) t
 
 That's it. There's only two steps.
 
-**To set up custom images:**
+#### Setting up custom images
 <details>
   <summary>Click to expand</summary>
 
@@ -17,17 +17,16 @@ That's it. There's only two steps.
   1. Scroll up and grab its client ID. This is what you put as the first option in your saves.
 </details>
 
------
+## Usage Instructions
 
 - See [the example](./saves/example.js) to learn how to configure a presence.
-  - You can run this with `node start.js --use example`
-- You can add and edit any saves you want! To run them, use `node start.js --use filename`
-  - Naming any save "main" will run as default unless `--use` is specified
-  - Please be sure not to use spaces in save names!
-
------
+- To run a presence, use `node start.js --use savename`
+- Extra options can be found in config.json!
+  - `default` - Default save to use when `--use` is not specified
+  - `saveFolder` - Relative path to save folder
 
 ### Future plans
 - Clickable file to start program
 - Perhaps a cool-looking menu?
 - Editing saves restarts them live
+- Rotating RPC (adjustable time changes)
