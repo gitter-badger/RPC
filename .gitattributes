@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
+# ONLY LF LINE ENDINGS geez this really makes eslint scream at me.
+* eol=lf
 * text=auto
