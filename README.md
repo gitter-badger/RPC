@@ -31,4 +31,4 @@ That's it!
 - [ ] Perhaps a cool-looking menu?
 - [ ] Editing saves restarts them live
 - [ ] Rotating RPC (adjustable time change)
-<details>
+</details>
