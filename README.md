@@ -25,9 +25,9 @@ Uses [discord-rich-presence](https://github.com/devsnek/discord-rich-presence) t
 - Extra options can be found in [config.json](./config.json)!
   - `default` - Default save to use when `--use` is not specified
   - `saveFolder` - Path to save folder
-
-### Future plans
-[x] Clickable file to start program
-[ ] Perhaps a cool-looking menu?
-[ ] Editing saves restarts them live
-[ ] Rotating RPC (adjustable time changes)
+  
+  ### Future plans
+  - [x] Clickable file to start program
+  - [ ] Perhaps a cool-looking menu?
+  - [ ] Editing saves restarts them live
+  - [ ] Rotating RPC (adjustable time change)
