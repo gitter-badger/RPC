@@ -20,12 +20,12 @@ Uses [discord-rich-presence](https://github.com/devsnek/discord-rich-presence) t
 - See [the example](./saves/example.js) to learn how to configure a presence.
 - To run a presence, use `node rpc.js --use savename` inside the directory.
   - If you want, you can specify your own scripts in `package.json` for shortcuts to your favorites.
-- Extra options can be found in `config.json`!
+- Extra options can be found in [config.json](./config.json)!
   - `default` - Default save to use when `--use` is not specified
   - `saveFolder` - Path to save folder
 
 ### Future plans
-- Clickable file to start program
-- Perhaps a cool-looking menu?
-- Editing saves restarts them live
-- Rotating RPC (adjustable time changes)
+- [x] Clickable file to start program
+- [ ] Perhaps a cool-looking menu?
+- [ ] Editing saves restarts them live
+- [ ] Rotating RPC (adjustable time changes)
