@@ -1,4 +1,9 @@
 # RPC
+
+![Github All Releases](https://img.shields.io/github/downloads/purpzie/rpc/total.svg) 
+![GitHub package version](https://img.shields.io/github/package-json/v/purpzie/rpc.svg?label=version)
+
+
 Uses [discord-rich-presence](https://github.com/devsnek/discord-rich-presence) to give you a simple way to save different presence configurations and use them later.
 
 ### Install
