@@ -1,9 +1,11 @@
-# RPC ![Github All Releases](https://img.shields.io/github/downloads/purpzie/rpc/total.svg)  ![GitHub package version](https://img.shields.io/github/package-json/v/purpzie/rpc.svg?label=version) [![Uses discord-rich-presence](https://img.shields.io/badge/uses-discord--rich--presence-f44195.svg)](https://npmjs.com/package/discord-rich-presence)<img align="right" src="https://pbs.twimg.com/media/DAmTGsGXcAArQPB.png">
+# RPC ![Github All Releases](https://img.shields.io/github/downloads/purpzie/rpc/total.svg)  ![GitHub package version](https://img.shields.io/github/package-json/v/purpzie/rpc.svg?label=version) [![Uses discord-rich-presence](https://img.shields.io/badge/uses-discord--rich--presence-f44195.svg)](https://npmjs.com/package/discord-rich-presence) <img align="right" src="https://pbs.twimg.com/media/DAmTGsGXcAArQPB.png">
 
 Rich Presence for Discord, no tokens required.
 - Look fabulous with custom images in your playing status.
 - Easy to use and understand.
 - Save multiple presences for later!
+
+[Install](#install) | [How to use](#how-to-use) | [Custom images](#setting-up-custom-images) | [Extras](#extra-configuration-optional) 
 
 ## Install
 1. If you haven't already, install [Node.js](https://nodejs.org/en/).
@@ -11,8 +13,9 @@ Rich Presence for Discord, no tokens required.
 1. Run `npm i` in its folder from your console.
 
 ## How to Use
-Use `npm run start` to run your default save, or `node rpc.js --use savename` for a different one.
+See the [example](./saves/example.js) to learn how to configure a save, which is what stores the information for your rich presence.
 
+Use `npm run start` to run your default save, or `node rpc.js --use savename` for a different one.
 
 <details><summary><b>Tips:</b> click to expand</summary>
 
@@ -38,6 +41,6 @@ You can also make a clickable file to start RPC, if you're a little too lazy to 
 1. Scroll up and grab its client ID. This is what you put as the first option in your saves.
 
 #### Extra configuration (optional)
-You can modify [config.json](./config.json) for your needs.
-- `default` - Default save to run when `--use` is not specified
-- `saveFolder` - Path to save folder, if you wish to store them somewhere else
+You can modify [config.json](./config.json) for your needs.  
+`default` - Default save to run when `--use` is not specified or if `npm run start` is used  
+`saveFolder` - Path to save folder, if you wish to store them somewhere else
