@@ -14,7 +14,9 @@ Rich Presence for Discord, no tokens required.
 Use `npm run start` to run your default save, or `node rpc.js --use savename` for a different one.
 
 
-**Tip:** You can create custom scripts in [package.json](./package.json).
+<details><summary><b>Tips:</b> click to expand</summary>
+
+You can create custom scripts in [package.json](./package.json) for shortcuts to your favorite saves.
 ```javascript
 "scripts": {
   "start": "node rpc.js",
@@ -22,6 +24,12 @@ Use `npm run start` to run your default save, or `node rpc.js --use savename` fo
 };
 // 'npm run birb' starts the 'birbsarelife' save
 ```
+
+You can also make a clickable file to start RPC, if you're a little too lazy to start up a console.
+1. Open a text editor and input the command that would start RPC, like `node rpc.js --use myfavsave`
+1. Save it inside RPC's main folder with whatever name you want, but make sure it has the `.bat` extension.
+1. You can now make a shortcut to the `.bat` file on your desktop, and clicking it will start up RPC.
+</details>
   
 ### Setting up custom images
 1. Go to the [developers page](https://discordapp.com/developers/applications/me) and create an application.
