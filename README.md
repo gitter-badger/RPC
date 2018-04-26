@@ -5,8 +5,6 @@ Rich Presence for Discord, no tokens required.
 - Easy to use and understand.
 - Save multiple presences for later!
 
-[Install](#install) | [How to use](#how-to-use) | [Custom images](#setting-up-custom-images) | [Extras](#extra-configuration-optional) 
-
 ## Install
 1. If you haven't already, install [Node.js](https://nodejs.org/en/).
 1. [Download the latest release of RPC.](https://github.com/purpzie/rpc/releases)
@@ -16,6 +14,12 @@ Rich Presence for Discord, no tokens required.
 See the [example](./saves/example.js) to learn how to configure a save, which is what stores the information for your rich presence.
 
 Use `npm run start` to run your default save, or `node rpc.js --use savename` for a different one.
+
+### Custom Images
+1. Go to the [developers page](https://discordapp.com/developers/applications/me) and create an application.
+1. Scroll down to where it says in big bold letters "Rich Presence", and enable it.
+1. Upload your images. Their names will be what to specify in the config as "largeImageName" and "smallImageName". Remember to save it!
+1. Scroll up and grab its client ID. This is what you put as the first option in your saves.
 
 <details><summary><b>Tips:</b> click to expand</summary>
 
@@ -33,12 +37,6 @@ You can also make a clickable file to start RPC, if you're a little too lazy to 
 1. Save it inside RPC's main folder with whatever name you want, but make sure it has the `.bat` extension.
 1. You can now make a shortcut to the `.bat` file on your desktop, and clicking it will start up RPC.
 </details>
-  
-### Setting up custom images
-1. Go to the [developers page](https://discordapp.com/developers/applications/me) and create an application.
-1. Scroll down to where it says in big bold letters "Rich Presence", and enable it.
-1. Upload your images. Their names will be what to specify in the config as "largeImageName" and "smallImageName". Remember to save it!
-1. Scroll up and grab its client ID. This is what you put as the first option in your saves.
 
 #### Extra configuration (optional)
 You can modify [config.json](./config.json) for your needs.  
