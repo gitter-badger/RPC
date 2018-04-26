@@ -1,9 +1,9 @@
 # RPC ![Github All Releases](https://img.shields.io/github/downloads/purpzie/rpc/total.svg)  ![GitHub package version](https://img.shields.io/github/package-json/v/purpzie/rpc.svg?label=version) [![Uses discord-rich-presence](https://img.shields.io/badge/uses-discord--rich--presence-f44195.svg)](https://npmjs.com/package/discord-rich-presence)<img align="right" src="https://pbs.twimg.com/media/DAmTGsGXcAArQPB.png">
 
 Rich Presence for Discord, no tokens required.
-- Look fabulous with custom images in your playing status
-- Easy to use and understand
-- Save presences for later
+- Look fabulous with custom images in your playing status.
+- Easy to use and understand.
+- Save presences for later!
 
 ## Install
 1. If you haven't already, install [Node.js](https://nodejs.org/en/).
@@ -37,12 +37,7 @@ You can also make a clickable file to start RPC, if you're a little too lazy to 
 1. Upload your images. Their names will be what to specify in the config as "largeImageName" and "smallImageName". Remember to save it!
 1. Scroll up and grab its client ID. This is what you put as the first option in your saves.
 
-#### [Extra configuration](./config.json) (optional)
+#### Extra configuration (optional)
+You can modify [config.json](./config.json) for your needs.
 - `default` - Default save to run when `--use` is not specified
 - `saveFolder` - Path to save folder, if you wish to store them somewhere else
-
-#### Future plans
-- [ ] Perhaps a cool-looking menu?
-- [ ] Editing saves restarts them live
-- [ ] Rotating RPC (adjustable time change), this is done from the commandline
-- [ ] Small file that helps you through creating your own save
