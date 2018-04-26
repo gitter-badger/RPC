@@ -3,7 +3,7 @@
 Rich Presence for Discord, no tokens required.
 - Look fabulous with custom images in your playing status.
 - Easy to use and understand.
-- Save presences for later!
+- Save multiple presences for later!
 
 ## Install
 1. If you haven't already, install [Node.js](https://nodejs.org/en/).
