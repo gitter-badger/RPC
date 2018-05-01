@@ -5,10 +5,10 @@
   "author": "Purpzie",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/purpzie/RPC.git"
+    "url": "git+https://github.com/ghostbirds/RPC.git"
   },
-  "homepage": "https://github.com/purpzie/RPC",
-  "bugs": "https://github.com/Purpzie/RPC/issues",
+  "homepage": "https://github.com/ghostbirdsRPC",
+  "bugs": "https://github.com/ghostbirds/RPC/issues",
   "scripts": {
     "start": "node rpc.js"
   },

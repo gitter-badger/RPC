@@ -1,4 +1,4 @@
-# RPC ![GitHub package version](https://img.shields.io/github/package-json/v/purpzie/rpc.svg?label=version) [![Uses discord-rich-presence](https://img.shields.io/badge/uses-discord--rich--presence-7289da.svg)](https://npmjs.com/package/discord-rich-presence) ![Made with love](https://img.shields.io/badge/made_with-love-f44195.svg) <img align="right" src="https://pbs.twimg.com/media/DAmTGsGXcAArQPB.png">
+# RPC ![GitHub package version](https://img.shields.io/github/package-json/v/ghostbirds/rpc.svg?label=version) [![Uses discord-rich-presence](https://img.shields.io/badge/uses-discord--rich--presence-7289da.svg)](https://npmjs.com/package/discord-rich-presence) ![Made with love](https://img.shields.io/badge/made_with-love-f44195.svg) <img align="right" src="https://pbs.twimg.com/media/DAmTGsGXcAArQPB.png">
 
 Rich Presence for Discord, no tokens required.
 - Look fabulous with custom images in your playing status.
@@ -7,7 +7,7 @@ Rich Presence for Discord, no tokens required.
 
 ## Install
 1. If you haven't already, install [Node.js](https://nodejs.org/en/).
-1. [Download the latest release of RPC.](https://github.com/purpzie/rpc/releases)
+1. [Download the latest release of RPC.](https://github.com/ghostbirds/rpc/releases)
 1. Run `npm i` in its folder from your console.
 
 ## How to Use
