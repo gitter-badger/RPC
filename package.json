@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/ghostbirds/RPC.git"
   },
-  "homepage": "https://github.com/ghostbirdsRPC",
+  "homepage": "https://github.com/ghostbirds/RPC",
   "bugs": "https://github.com/ghostbirds/RPC/issues",
   "scripts": {
     "start": "node rpc.js"
