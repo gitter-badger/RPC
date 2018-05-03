@@ -1,1 +1,3 @@
-to edit later
+= README settings
+:showtitle!:
+:attribute-missing: skip
