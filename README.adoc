@@ -1,3 +1,74 @@
-= README settings
-:showtitle!:
-:attribute-missing: skip
+// Please see the correctly-formatted version of this readme on GitHub!
+// https://github.com/ghostbirds/RPC/blob/master/README.md
+= RPC image:https://img.shields.io/github/package-json/v/ghostbirds/rpc.svg?label=version[package version]  image:https://img.shields.io/badge/made_with-love-f44195.svg[made with love] +++<img align="right" src="https://vignette.wikia.nocookie.net/logopedia/images/d/dd/Discord_Icon.svg" width="150">+++
+Purpzie <purpzie.bird@gmail.com>
+:toc: macro
+:!toc-title:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:example-caption: :pencil:
+// Variables
+:badges: image:https://img.shields.io/github/package-json/v/ghostbirds/rpc.svg?label=version[package version] image:https://img.shields.io/badge/uses-discord\--rich\--presence-7289da.svg[uses discord-rich-presence,link=https://npmjs.com/package/discord-rich-presence] image:https://img.shields.io/badge/made_with-love-f44195.svg[made with love]
+:repo: https://github.com/ghostbirds/RPC
+
+[quote]
+Rich presence for link:https://discordapp.com[Discord], no tokens required.
+
+- Easy to use and understand!
+- Look fabulous with custom images in your playing status.
+- Save multiple presence configurations for later use!
+
+'''
+
+toc::[]
+
+== Installation
+. If you haven't already, install link:https://nodejs.org/en/[Node.js].
+. {repo}/releases[Download the latest release of RPC.]
+. Run `npm i` from its directory from your console.
+
+== Usage
+See the link:./saves/example.js[example] to learn how to configure a save file, which is what stores the configuration for a rich presence. +
+You can then use `node rpc.js --use savename` to use the save, or `npm run start` for your default.
+
+[TIP]
+====
+You can create custom scripts in link:./package.json[package.json] for shortcuts to your favorite saves.
+[source,javascript]
+"scripts": {
+  "start": "node rpc.js",
+  "birb": "node rpc.js --use birbsarelife"
+};
+// 'npm run birb' starts the 'birbsarelife' save
+====
+
+=== Adding images
+. Go to the link:https://discordapp.com/developers/applications/me[developers page] and create an application.
+. Scroll down to where it says "Rich Presence" and enable it.
+. Upload your images according to their size. Their names will be what to specify in the save as `largeImageName` and `smallImageName`.
++
+IMPORTANT: Remember to hit the save button!
+. Scroll back up to the top and copy your application's client ID. This will be the first option in your save file.
+
+=== Extra configuration
+link:./config.json[Config.json] is already included, so modifying it is completely optional. However, you can still change it if you like.
+
+`default`:: Name of default save to run if `--use` is not specified.
+`saveFolder`:: The path to your save folder, if you'd like to store them somewhere else.
+
+== Upcoming features
+[cols="2*"]
+|===
+| Status | Description
+
+| Not certain
+| A cool-looking menu to control everything
+
+| Planned
+| Rotating RPC (via command line)
+
+| In progress
+| Editing saves restarts RPC live
+|===
